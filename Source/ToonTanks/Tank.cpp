@@ -14,7 +14,7 @@ ATank::ATank()
 
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
     Camera->SetupAttachment(SpringArm);
-    FTimerDelegate
+    //FTimerDelegate
 }
 
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
